@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Nombre: Sebastian Herrera C
+Rol: 201551551-4
 
-Things you may want to cover:
+Esta carpeta contiene todos los datos dentro de una app, incluyendo los datos para conectarse a una base de datos en database.myl, por lo que debiese ser llegar y ejectuar, aunque desconozco si la base de datos es local o publica. Si es local, habria que cambiar los datos de database.myl a uno que dispongas y crear algunos datos nuevos ahi.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Lamento lo poco que pude hacer, espero algo salvar.
