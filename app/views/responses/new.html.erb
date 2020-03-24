@@ -1,0 +1,16 @@
+<h1>Escribe tu respuesta amiwo</h1>
+
+<%= form_for ([@publication, @response]) do |f| %>
+  <div>
+    <%= f.label :texto %>
+    <%= f.text_field :texto %>
+  </div>
+  
+  <div>
+  <%= f.hidden_field :publication_id, value: @publication.id %>
+  </div>
+
+  <div>
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,14 @@
+
+<h1><%= @publication.name %></h1>
+
+<div>Post</div>
+
+<p style = "margin: 5px; border:10px solid black; background-color:gray">
+    <font color = "purple">  <%= @publication.user.email %> </font>      
+    <br>  
+    <strong><%= @publication.texto %></strong>
+    </p>
+    <br>
+    <%= link_to "Responder", new_publication_response_path(@publication) %>
+
+

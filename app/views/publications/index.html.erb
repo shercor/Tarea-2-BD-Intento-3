@@ -1,0 +1,21 @@
+<h1>Bienvenido a BD-CHAN</h1>
+
+<%= link_to "Crea una nueva publicacion en esta seccion", new_section_publication_path %>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Publicaciones</th>
+      <th>Fecha Creacion</th>
+      <th>ASDASDASD</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @publication.each do |pub| %>
+      <tr>
+        <td><%= link_to pub.name, pub %></td>
+        <td><%= pub.created_at %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

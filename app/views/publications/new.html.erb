@@ -1,0 +1,18 @@
+<h1>Indica el nombre que tendra la publicacion amiwo</h1>
+
+<%= form_for ([@section, @publication]) do |f| %>
+  <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.label :texto %>
+    <%= f.text_field :texto %>
+  </div>
+  
+  <div>
+  <%= f.hidden_field :section_id, value: @section.id %>
+  </div>
+
+  <div>
+    <%= f.submit %>
+  </div>
+<% end %>

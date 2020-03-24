@@ -1,0 +1,17 @@
+
+
+<h1>Publicaciones de <%= @section.name %></h1>
+<div>Nombre: <%= @section.name %></div>
+
+<%= link_to "Crea una nueva publicacion", new_section_publication_path(@section) %>
+
+<% @section.publications.each do |pub| %>
+    <p style = "margin: 25px; border:5px solid black; background-color:powderblue">        
+        <strong><%= pub.name %></strong>
+        <font color = "purple">  Publicado por <%= pub.user.email %> </font>
+        <%= link_to "Ver en detalle", pub%>
+        <br>
+        <%= pub.texto %>
+    </p> 
+<% end %>
+

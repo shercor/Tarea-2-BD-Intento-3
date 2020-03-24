@@ -1,0 +1,8 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: base3
+  pool: 5
+  username: root
+  password: canalla794
+  socket: /tmp/mysql.sock

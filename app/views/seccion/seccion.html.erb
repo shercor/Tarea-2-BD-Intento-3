@@ -1,0 +1,17 @@
+<h1>Bienvenido a BD-CHAN</h1>
+<a href="<%= home_path %>">Ir al Home</a>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Secciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @secciones.each do |seccion| %>
+      <tr>
+        <td><%= sccion %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
